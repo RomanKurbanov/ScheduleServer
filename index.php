@@ -50,7 +50,7 @@ date_default_timezone_set('UTC');
                         return $res;
                     }
 
-                    for($globalDay=1;$globalDay<=6;$globalDay++){
+                    for($globalDay=1;$globalDay<=7;$globalDay++){
                         $currentDay++;
                         if ($currentDay>7){
                             $currentDay= $currentDay-7;

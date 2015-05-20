@@ -14,7 +14,7 @@ date_default_timezone_set('UTC');
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="windows-1251">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
@@ -57,7 +57,7 @@ date_default_timezone_set('UTC');
                         }
                         $output = $html->find('td[day='.$currentDay.']');
                         if (!isDayEmpty($output)){
-                            echo '<div class="card"><div class="card-header">';
+                            echo '<div class="card" style="-moz-hyphens: auto;-webkit-hyphens: auto;-ms-hyphens: auto;"><div class="card-header">';
                             switch($currentDay){
                                 case 1:
                                     echo "Понедельник";
@@ -103,6 +103,15 @@ date_default_timezone_set('UTC');
                                     foreach ($comms3 as $comm3) {
                                         $comm3->{'width'} = '100%';
                                     }
+
+                                    $trs=$output[$i]->find('tr');
+                                    foreach ($trs as $tr) {
+                                        if ($tr->plaintext=='&nbsp;&nbsp;&nbsp;&nbsp;'){
+                                            $tr->outertext='';
+                                        }
+                                    }
+
+
                                     $cabinet="100";
                                     $cabs = $output[$i]->find('div[class=cab]');
                                     foreach ($cabs as $cab) {

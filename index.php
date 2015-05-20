@@ -65,14 +65,19 @@ date_default_timezone_set('UTC');
                         //— каждым шагом цикла провер€емый день увеличиваетс€ на 1. ≈сли он больше 7, то есть воскресень€,
                         //то от него отнимаетс€ 7. “о есть 8 больше чем 7, а 7 это воскресенье. —ледовательно 8 это
                         //понедельник. 8-7=1, что €вл€етс€ пор€дковым номером понедельника
+
                         if ($currentDay>7){
                             $currentDay= $currentDay-7;
                         }
+                        //7 - это воскресенье. ¬оскресенье мы пропускаем.
+                        if ($currentDay==7){
+                            continue;
+                        }
+
                         //output это массив из €чеек на текущий день, содержащих информацию о парах
                         $output = $html->find('td[day='.$currentDay.']');
-                        //≈сли на дню что-то есть
-                        //“о есть isDayEmpty() возвращает false если на дню что-то есть, иначе - true
-                        if (!isDayEmpty($output)){
+
+
                             //¬ цикле обозначаетс€ начало карточки, в style - автоматический перенос русских слов браузером
                             echo '<div class="card" style="-moz-hyphens: auto;-webkit-hyphens: auto;-ms-hyphens: auto;"><div class="card-header">';
                             //¬ названии карточки в зависимости от пор€дкового дн€ недели выписываетс€ название дн€
@@ -96,8 +101,14 @@ date_default_timezone_set('UTC');
                                     echo "—уббота";
                                     break;
                             }
+                            //ƒописываем конец заголовка карточки
+                            echo '</div>';
+                        //≈сли на дню что-то есть
+                        //“о есть isDayEmpty() возвращает false если на дню что-то есть, иначе - true
+                        if (!isDayEmpty($output)){
                             //¬ыписываетс€ начало тела карточки
-                            echo '</div><div class="card-content"></div><div class="list-block"><ul>';
+                            echo '<div class="card-content"></div><div class="list-block"><ul>';
+
                             //я не знаю зачем оно здесь, главное - не трогать пока работает, лол
                             $output = $html->find('td[day='.$currentDay.']');
                             //÷икл перебирает каждую €чейку. ¬ажно знать номер €чейки, поэтому вместо foreach юзаю for
@@ -204,8 +215,11 @@ date_default_timezone_set('UTC');
                             }
                             //ƒописываем конец карточки
                             //Ёто конец шага циклом выше, то есть это конец карточки дл€ каждого дн€ с парами
-                            echo '</div></div>';
+                        } else {
+                            echo '<div class="card-footer">Ќет зан€тий</div>';
                         }
+                            echo '</div>';
+
 
 
                     }

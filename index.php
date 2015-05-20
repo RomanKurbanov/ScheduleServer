@@ -216,9 +216,9 @@ date_default_timezone_set('UTC');
                             //ƒописываем конец карточки
                             //Ёто конец шага циклом выше, то есть это конец карточки дл€ каждого дн€ с парами
                         } else {
-                            echo '<div class="card-footer">Ќет зан€тий</div>';
+                            echo '<div class="card-footer">Ќет зан€тий';
                         }
-                            echo '</div>';
+                            echo '</div></div>';
 
 
 

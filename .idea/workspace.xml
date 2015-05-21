@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35e0b927-9fc7-4511-a7a3-213a39f1561e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ isosnitsky/chatbot.demo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ isosnitsky/client.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ isosnitsky/websocket.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ isosnitsky/websocket.demo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Копия test.php" afterPath="" />
+    <list default="true" id="35e0b927-9fc7-4511-a7a3-213a39f1561e" name="Default" comment="Fixed parser not showing 7-th day">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ScheduleServer.iws" />
@@ -40,11 +32,29 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13119534" vertical-offset="1515" max-vertical-offset="2535">
-              <caret line="107" column="59" selection-start-line="107" selection-start-column="59" selection-end-line="107" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.7017544" vertical-offset="4455" max-vertical-offset="5445">
+              <caret line="507" column="112" selection-start-line="507" selection-start-column="112" selection-end-line="507" selection-end-column="112" />
               <folding>
-                <marker date="1432144687000" expanded="true" signature="2456:2515" placeholder="..." />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#isDayEmpty#0;n#!!top" expanded="false" />
+                <element signature="e#5697#17398#0#PHP" expanded="false" />
+                <element signature="e#32506#32737#0#PHP" expanded="false" />
+                <marker date="1432191894000" expanded="true" signature="8856:10536" placeholder="..." />
+                <marker date="1432191894000" expanded="true" signature="15449:15667" placeholder="..." />
+                <marker date="1432191894000" expanded="true" signature="15449:15827" placeholder="..." />
+                <marker date="1432191894000" expanded="true" signature="23305:23541" placeholder="..." />
+                <marker date="1432191894000" expanded="true" signature="31277:31521" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.125" vertical-offset="1761" max-vertical-offset="2745">
+              <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,8 +113,8 @@
         <option value="$PROJECT_DIR$/ isosnitsky/client.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Копия test.php" />
-        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/css/my-app.css" />
+        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -114,9 +124,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
+    <option name="x" value="229" />
     <option name="y" value="23" />
-    <option name="width" value="1439" />
+    <option name="width" value="1115" />
     <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -230,12 +240,44 @@
       <option name="number" value="Default" />
       <updated>1432034575833</updated>
     </task>
+    <task id="LOCAL-00001" summary="Removed everything unused">
+      <created>1432145958351</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1432145958351</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixed parser not showing 7-th day">
+      <created>1432146788878</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1432146788879</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added comments">
+      <created>1432150705129</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1432150705129</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Now shows if there is no lessons on the day">
+      <created>1432152960263</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1432152960263</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed parser not showing 7-th day&#10;QuickFix: i broke something you'll never know what and fixed it in a moment">
+      <created>1432153203477</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1432153203477</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1439" height="828" extended-state="6" />
-    <editor active="false" />
+    <frame x="229" y="23" width="1115" height="828" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32791328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -243,7 +285,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17465998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1739726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -274,10 +316,16 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Removed everything unused" />
+    <MESSAGE value="Fixed parser not showing 7-th day" />
+    <MESSAGE value="Added comments" />
+    <MESSAGE value="Now shows if there is no lessons on the day" />
+    <MESSAGE value="Fixed parser not showing 7-th day&#10;QuickFix: i broke something you'll never know what and fixed it in a moment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed parser not showing 7-th day&#10;QuickFix: i broke something you'll never know what and fixed it in a moment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -287,7 +335,15 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2400">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1432144687000" expanded="true" signature="2456:2515" placeholder="..." />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#isDayEmpty#0;n#!!top" expanded="false" />
+            <element signature="e#5697#17398#0#PHP" expanded="false" />
+            <element signature="e#32506#32737#0#PHP" expanded="false" />
+            <marker date="1432191894000" expanded="true" signature="8856:10536" placeholder="..." />
+            <marker date="1432191894000" expanded="true" signature="15449:15667" placeholder="..." />
+            <marker date="1432191894000" expanded="true" signature="15449:15827" placeholder="..." />
+            <marker date="1432191894000" expanded="true" signature="23305:23541" placeholder="..." />
+            <marker date="1432191894000" expanded="true" signature="31277:31521" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -340,14 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91253644" vertical-offset="1699" max-vertical-offset="2745">
-          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/3.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -356,6 +404,14 @@
     <entry file="file://$PROJECT_DIR$/img/7.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.125" vertical-offset="1761" max-vertical-offset="2745">
+          <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/my-app.css">
@@ -376,10 +432,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13119534" vertical-offset="1515" max-vertical-offset="2535">
-          <caret line="107" column="59" selection-start-line="107" selection-start-column="59" selection-end-line="107" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.7017544" vertical-offset="4455" max-vertical-offset="5445">
+          <caret line="507" column="112" selection-start-line="507" selection-start-column="112" selection-end-line="507" selection-end-column="112" />
           <folding>
-            <marker date="1432144687000" expanded="true" signature="2456:2515" placeholder="..." />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#isDayEmpty#0;n#!!top" expanded="false" />
+            <element signature="e#5697#17398#0#PHP" expanded="false" />
+            <element signature="e#32506#32737#0#PHP" expanded="false" />
+            <marker date="1432191894000" expanded="true" signature="8856:10536" placeholder="..." />
+            <marker date="1432191894000" expanded="true" signature="15449:15667" placeholder="..." />
+            <marker date="1432191894000" expanded="true" signature="15449:15827" placeholder="..." />
+            <marker date="1432191894000" expanded="true" signature="23305:23541" placeholder="..." />
+            <marker date="1432191894000" expanded="true" signature="31277:31521" placeholder="..." />
           </folding>
         </state>
       </provider>

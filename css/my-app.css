@@ -1,41 +1,48 @@
+
 i.icon.icon-1 {
-    width: 42px;
-    height: 42px;
     background-image: url("../img/1.png");
+    width: 40px;
+    height:40px;
 }
 
 i.icon.icon-2 {
-    width: 42px;
-    height: 42px;
     background-image: url("../img/2.png");
+    width: 40px;
+    height:40px;
 }
 
 i.icon.icon-3 {
-    width: 42px;
-    height: 42px;
     background-image: url("../img/3.png");
+    width: 40px;
+    height:40px;
 }
 
 i.icon.icon-4 {
-    width: 42px;
-    height: 42px;
     background-image: url("../img/4.png");
+    width: 40px;
+    height:40px;
 }
 
 i.icon.icon-5 {
-    width: 42px;
-    height: 42px;
     background-image: url("../img/5.png");
+    width: 40px;
+    height:40px;
 }
 
 i.icon.icon-6 {
-    width: 42px;
-    height: 42px;
     background-image: url("../img/6.png");
+    width: 40px;
+    height:40px;
 }
 
 i.icon.icon-7 {
-    width: 42px;
-    height: 42px;
     background-image: url("../img/7.png");
+    width: 40px;
+    height:40px;
+}
+
+i.icon.icon-8 {
+    background-image: url("../img/8.png");
+    width: 40px;
+    height:40px;
 }
